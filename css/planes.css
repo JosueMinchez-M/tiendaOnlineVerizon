@@ -1,0 +1,41 @@
+section#planes{
+	background: #000000;
+	color: #020202;
+	text-align: center;
+	padding: 20px;
+	border-top: 3px solid #C70000;
+	border-bottom: 3px solid #C70000;
+}
+
+section#planes div.contenedor{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+section#planes div.contenedor div.info-planes{
+	background: #fff;
+	width: 100%;
+	max-width: 290px;
+	margin: 10px 15px;
+	border-radius: 10px;
+	border: 2px solid #C70000;
+	padding: 15px 30px;
+}
+
+section#planes div.contenedor div.info-planes p.precio{
+	font-size: 50px;
+	color: #1C68D2;
+	font-weight: bold;
+}
+
+section#planes h3.planes{
+	color: #fff;
+}
+
+@media (min-width: 1024px){
+
+	section#planes div.contenedor div.info-planes{
+		max-width: 220px;
+	}
+}
